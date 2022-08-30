@@ -15,7 +15,7 @@ function draw() {
     if (window.innerWidth > canvas.width || window.innerWidth < canvas.width) {
         canvas.width = window.innerWidth;
     }
-    if (window.innerHeight > canvas.height || window.innerHeight < canvas.height){
+    if (window.innerHeight > canvas.height || window.innerHeight < canvas.height) {
         canvas.height = window.innerHeight;
     }
 
