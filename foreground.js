@@ -18,6 +18,8 @@ function draw() {
     if (window.innerHeight > canvas.height || window.innerHeight < canvas.height){
         canvas.height = window.innerHeight;
     }
+
+    //inventory
     c.beginPath();
     c.fillStyle = 'black';
     c.fillRect(0, 0, canvas.width, canvas.height);
@@ -27,6 +29,12 @@ function draw() {
     c.fillRect(window.innerWidth - 280, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 370, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 460, window.innerHeight - 100, 70, 70);
+    c.fillStyle = 'white';
+    c.fillText("1", window.innerWidth - 100, window.innerHeight - 100);
+    c.fillText("2", window.innerWidth - 190, window.innerHeight - 100);
+    c.fillText("3", window.innerWidth - 280, window.innerHeight - 100);
+    c.fillText("4", window.innerWidth - 370, window.innerHeight - 100);
+    c.fillText("5", window.innerWidth - 460, window.innerHeight - 100);
     c.fill();
 }
 
