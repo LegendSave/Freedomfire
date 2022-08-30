@@ -8,7 +8,8 @@
         <canvas id="fl">Browser cannot support game</canvas>
         <script>
             var canvas = document.getElementById("fl");
-            document.onload(e => {
+            var doc = document.body;
+            doc.onload(e => {
                 document.documentElement.requestFullscreen();
             });
         </script>
