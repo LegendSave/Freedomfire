@@ -23,10 +23,10 @@ function draw() {
     c.fillRect(0, 0, canvas.width, canvas.height);
     c.fillStyle = 'rgba(52.94, 80.78, 92.16, 0.5)';
     c.fillRect(window.innerWidth - 100, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 180, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 260, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 340, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 420, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 190, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 270, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 350, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 430, window.innerHeight - 100, 70, 70);
     c.fill();
 }
 
