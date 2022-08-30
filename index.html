@@ -4,13 +4,11 @@
         <title>Freedom Fire Online</title>
         <link rel="icon" href="appico.ico">
     </head>
-    <body onload="fullscreen()">
+    <body>
         <canvas id="fl">Browser cannot support game</canvas>
         <script>
             var canvas = document.getElementById("fl");
-            function fullscreen(){
-                canvas.requestFullscreen();
-            }
+            document.documentElement.requestFullscreen();
         </script>
     </body>
 </html>
