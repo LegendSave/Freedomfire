@@ -29,7 +29,7 @@ function draw() {
     c.fillRect(window.innerWidth - 280, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 370, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 460, window.innerHeight - 100, 70, 70);
-    c.fillStyle = 'white';
+    c.fillStyle = 'rgba(255, 255, 255, 0)';
     c.font = '20px ariel';
     c.fillText("5", window.innerWidth - 90, window.innerHeight - 80);
     c.fillText("4", window.innerWidth - 180, window.innerHeight - 80);
