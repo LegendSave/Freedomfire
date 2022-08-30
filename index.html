@@ -5,13 +5,17 @@
         <link rel="icon" href="appico.ico">
     </head>
     <body>
-        <canvas id="fl">Browser cannot support game</canvas>
+        <canvas>Browser cannot support game</canvas>
         <script>
-            var canvas = document.getElementById("fl");
-            var doc = document.body;
-            doc.onload(e => {
-                document.documentElement.requestFullscreen();
-            });
+            var canvas = document.querySelector('canvas');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            var c = canvas.getContext("2d");
+
+            c.beginPath();
+            c.fillStlye = 'rgba(255,255,255,1)'
+            c.fillRect(0,0,canvas.width,canvas.height);
+            c.fill();
         </script>
     </body>
 </html>
