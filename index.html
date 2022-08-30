@@ -1,24 +1,38 @@
 <!--doctype HTML-->
 <html>
-    <head>
-        <title>Freedom Fire Online</title>
-        <link rel="icon" href="appico.ico">
-        <style>
-            body{margin: 0cm;}
-        </style>
-    </head>
-    <body>
-        <canvas>Browser cannot support game</canvas>
-        <script>
-            var canvas = document.querySelector('canvas');
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            var c = canvas.getContext("2d");
+<head>
+    <title>Freedom Fire Online</title>
+    <link rel="icon" href="appico.ico">
+    <style>
+        body {
+            margin: 0cm;
+        }
+    </style>
+</head>
+<body>
+    <canvas>Browser cannot support game</canvas>
+    <script>
+        var canvas = document.querySelector('canvas');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        var c = canvas.getContext("2d");
 
-            c.beginPath();
-            c.fillStlye = 'rgba(255,255,255,1)'
-            c.fillRect(0,0,canvas.width,canvas.height);
-            c.fill();
-        </script>
-    </body>
+        c.beginPath();
+        c.fillStlye = 'rgba(255,255,255,1)'
+        c.fillRect(0, 0, canvas.width, canvas.height);
+        c.fill();
+
+        function draw() {
+            requestAnimationFrame(draw);
+            c.clearRect(0, 0, canvas.width, canvas.height);
+
+            if (window.innerWidth || window.innerHeight) {
+                c.beginPath();
+                c.fillStlye = 'rgba(255,255,255,1)'
+                c.fillRect(0, 0, canvas.width, canvas.height);
+                c.fill();
+            }
+        }
+    </script>
+</body>
 </html>
