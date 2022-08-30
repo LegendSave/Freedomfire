@@ -21,7 +21,7 @@ function draw() {
 
     //inventory
     c.beginPath();
-    c.fillStyle = 'black';
+    c.fillStyle = 'rgba(255, 255, 255, 0)';
     c.fillRect(0, 0, canvas.width, canvas.height);
     c.fillStyle = 'rgba(52.94, 80.78, 92.16, 0.5)';
     c.fillRect(window.innerWidth - 100, window.innerHeight - 100, 70, 70);
