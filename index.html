@@ -5,6 +5,18 @@
         <link rel="icon" href="appico.ico">
     </head>
     <body>
-        <h1>This is the start of the webpage</h1>
+        <canvas id="fl">Browser cannot support game</canvas>
+        <script>
+            var canvas = document.getElementById("fl");
+            if(canvas.requestFullscreen){
+                canvas.requestFullscreen();
+            }
+            else if (canvas.webkitRequestFullscreen){
+                canvas.webkitRequestFullscreen();
+            }
+            else if (canvas.msRequestFullscreen){
+                canvas.msRequestFullscreen();
+            }
+        </script>
     </body>
 </html>
