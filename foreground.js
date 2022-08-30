@@ -31,11 +31,11 @@ function draw() {
     c.fillRect(window.innerWidth - 460, window.innerHeight - 100, 70, 70);
     c.fillStyle = 'white';
     c.font = '20px ariel';
-    c.fillText("5", window.innerWidth - 100, window.innerHeight - 80);
-    c.fillText("4", window.innerWidth - 190, window.innerHeight - 80);
-    c.fillText("3", window.innerWidth - 280, window.innerHeight - 80);
-    c.fillText("2", window.innerWidth - 370, window.innerHeight - 80);
-    c.fillText("1", window.innerWidth - 460, window.innerHeight - 80);
+    c.fillText("5", window.innerWidth - 80, window.innerHeight - 80);
+    c.fillText("4", window.innerWidth - 170, window.innerHeight - 80);
+    c.fillText("3", window.innerWidth - 260, window.innerHeight - 80);
+    c.fillText("2", window.innerWidth - 350, window.innerHeight - 80);
+    c.fillText("1", window.innerWidth - 440, window.innerHeight - 80);
     c.fill();
 }
 
