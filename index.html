@@ -1,5 +1,6 @@
 <!--doctype HTML-->
 <html>
+
 <head>
     <title>Freedom Fire Online</title>
     <link rel="icon" href="appico.ico">
@@ -9,6 +10,7 @@
         }
     </style>
 </head>
+
 <body>
     <canvas>Browser cannot support game</canvas>
     <script>
@@ -26,13 +28,18 @@
             requestAnimationFrame(draw);
             c.clearRect(0, 0, canvas.width, canvas.height);
 
-            if (window.innerWidth || window.innerHeight) {
-                c.beginPath();
-                c.fillStlye = 'rgba(255,255,255,1)'
-                c.fillRect(0, 0, canvas.width, canvas.height);
-                c.fill();
+            if (window.innerWidth > canvas.width || window.innerWidth < canvas.width) {
+                canvas.width = window.innerWidth;
             }
+            if (window.innerHeight > canvas.height || window.innerHeight < canvas.height){
+                canvas.height = window.innerHeight;
+            }
+            c.beginPath();
+            c.fillStlye = 'rgba(255,255,255,0.5)'
+            c.fillRect(0, 0, canvas.width, canvas.height);
+            c.fill();
         }
     </script>
 </body>
+
 </html>
