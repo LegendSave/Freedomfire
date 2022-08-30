@@ -26,7 +26,7 @@ function draw() {
     c.fillRect(window.innerWidth - 190, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 280, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 370, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 500, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 460, window.innerHeight - 100, 70, 70);
     c.fill();
 }
 
