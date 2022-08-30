@@ -24,9 +24,9 @@ function draw() {
     c.fillStyle = 'rgba(52.94, 80.78, 92.16, 0.5)';
     c.fillRect(window.innerWidth - 100, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 190, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 270, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 350, window.innerHeight - 100, 70, 70);
-    c.fillRect(window.innerWidth - 430, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 280, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 370, window.innerHeight - 100, 70, 70);
+    c.fillRect(window.innerWidth - 500, window.innerHeight - 100, 70, 70);
     c.fill();
 }
 
