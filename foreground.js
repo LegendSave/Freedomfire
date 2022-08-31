@@ -36,6 +36,8 @@ function draw() {
     c.fillText("3", window.innerWidth - 270, window.innerHeight - 80);
     c.fillText("2", window.innerWidth - 360, window.innerHeight - 80);
     c.fillText("1", window.innerWidth - 450, window.innerHeight - 80);
+    c.fillStyle = 'grey'
+    c.arc(100, 100, Math.PI, 0, 360, false);
     c.fill();
 }
 
