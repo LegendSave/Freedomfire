@@ -10,7 +10,7 @@ c.fill();
 
 
 document.addEventListener("keydown", e => {
-if (e.value == 65){
+if (event.value == 8){
     console.log("Event activated");
 }
 });
