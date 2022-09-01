@@ -10,9 +10,7 @@ c.fill();
 
 
 document.addEventListener("keydown", e => {
-if (e.key == 8){
-    console.log("Event activated");
-}
+console.log(event.value);
 });
 function draw() {
     requestAnimationFrame(draw);
