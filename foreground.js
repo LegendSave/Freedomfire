@@ -10,7 +10,7 @@ c.fill();
 
 
 document.addEventListener("keydown", e => {
-console.log(event.value);
+console.log(e.value);
 });
 function draw() {
     requestAnimationFrame(draw);
