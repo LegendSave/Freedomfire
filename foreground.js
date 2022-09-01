@@ -8,6 +8,12 @@ c.fillStlye = 'rgba(255,255,255,1)'
 c.fillRect(0, 0, canvas.width, canvas.height);
 c.fill();
 
+
+document.addEventListener("keydown", e => {
+if (event.value = 65){
+    console.log("Event activated");
+}
+});
 function draw() {
     requestAnimationFrame(draw);
     c.clearRect(0, 0, canvas.width, canvas.height);
@@ -19,7 +25,7 @@ function draw() {
         canvas.height = window.innerHeight;
     }
 
-    //inventory
+    //inventory, UI
     c.beginPath();
     c.fillStyle = 'black';
     c.fillRect(0, 0, canvas.width, canvas.height);
