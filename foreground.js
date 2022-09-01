@@ -8,9 +8,12 @@ c.fillStlye = 'rgba(255,255,255,1)'
 c.fillRect(0, 0, canvas.width, canvas.height);
 c.fill();
 
+var x = 200;
 
-document.addEventListener("keydown", e => {
-console.log(e.value);
+document.addEventListener("keypress", e => {
+if(event.value == 65){
+x += 6;
+}
 });
 function draw() {
     requestAnimationFrame(draw);
@@ -28,7 +31,7 @@ function draw() {
     c.fillStyle = 'black';
     c.fillRect(0, 0, canvas.width, canvas.height);
     c.fillStyle = 'rgba(52.94, 80.78, 92.16, 0.5)';
-    c.fillRect(window.innerWidth - 100, window.innerHeight - 100, 70, 70);
+    c.fillRect(x, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 190, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 280, window.innerHeight - 100, 70, 70);
     c.fillRect(window.innerWidth - 370, window.innerHeight - 100, 70, 70);
