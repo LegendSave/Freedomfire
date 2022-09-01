@@ -10,7 +10,7 @@ c.fill();
 
 var x = 200;
 
-document.addEventListener("keypress", e => {
+window.addEventListener("keypress", e => {
 if(event.value == 65){
 x += 6;
 }
