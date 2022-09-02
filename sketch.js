@@ -9,5 +9,6 @@ function draw() {
   fill(255, 0, 150);
   rectMode(CENTER);
   rotateX(90);
+  rotateZ(90);
   plane(300, 300);
 }
