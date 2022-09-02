@@ -8,5 +8,5 @@ function draw() {
   background(51);
   fill(255, 0, 150);
   rectMode(CENTER);
-  plane();
+  plane(300, 300);
 }
