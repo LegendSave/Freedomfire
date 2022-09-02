@@ -8,6 +8,6 @@ function draw() {
   background(51);
   fill(255, 0, 150);
   rectMode(CENTER);
-  rotateY(90);
+  rotate(90);
   plane(300, 300);
 }
