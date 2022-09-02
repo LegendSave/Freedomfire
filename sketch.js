@@ -11,5 +11,5 @@ function draw() {
   rotateY(-70);
   rotateX(-30);
   //plane(300, 300);
-  sphere(40, 20, 20);
+  sphere(100, 20, 20);
 }
