@@ -10,5 +10,6 @@ function draw() {
   rectMode(CENTER);
   rotateY(-70);
   rotateX(-30);
-  plane(300, 300);
+  //plane(300, 300);
+  sphere();
 }
