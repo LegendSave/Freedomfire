@@ -8,7 +8,7 @@ function draw() {
   background(51);
   fill(255, 0, 150);
   rectMode(CENTER);
-  rotateY(-90);
+  rotateY(-70);
   rotateX(-90);
   plane(300, 300);
 }
