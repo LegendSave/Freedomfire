@@ -9,8 +9,8 @@ function draw() {
   fill(255, 0, 150);
   rectMode(CENTER);
   rotateY(-70);
-  rotateX(-30);
-  rotateZ(angle)
+  rotateX(angle);
+  rotateZ(-30)
   //plane(300, 300);
   sphere(100, 20, 20);
   angle += 0.07;
