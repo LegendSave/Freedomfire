@@ -10,6 +10,8 @@ function draw() {
   rectMode(CENTER);
   rotateY(-70);
   rotateX(-30);
+  rotateZ(angle)
   //plane(300, 300);
   sphere(100, 20, 20);
+  angle += 0.07;
 }
