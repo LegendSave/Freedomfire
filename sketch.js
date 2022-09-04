@@ -8,7 +8,7 @@ function draw() {
   background(51);
   fill(255, 0, 150);
   cam.setPosition(-100, 100, -100);
-  cam.lookAt(100, 100, 100)
+  cam.lookAt(200, 200, 200);
   rotateY(-70);
   rotateX(angle);
   rotateZ(-30)
