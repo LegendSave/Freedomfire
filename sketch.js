@@ -4,10 +4,11 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight, WEBGL);
 }
 function draw() {
+  cam = createCamera();
   sphere(100, 20, 20);
   background(51);
   fill(255, 0, 150);
-  position(200, 200);
+  cam.setPosition(200, 200);
   rotateY(-70);
   rotateX(angle);
   rotateZ(-30)
