@@ -4,14 +4,14 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight, WEBGL);
 }
 function draw() {
+  var s =   sphere(100, 20, 20);
   // put drawing code here
   background(51);
   fill(255, 0, 150);
-  position(200, 200);
+  s.position(200, 200);
   rotateY(-70);
   rotateX(angle);
   rotateZ(-30)
   //plane(300, 300);
-  sphere(100, 20, 20);
   angle += 0.07;
 }
