@@ -6,8 +6,8 @@ function setup() {
 function draw() {
   let cam = createCamera();
   background(51);
-  noStroke();
-  fill(255, 0, 150);
+  stroke("white");
+  noFill();
   cam.setPosition(-250, 250, -250);
   cam.lookAt(50, 50, 50);
   rotateY(-70);
