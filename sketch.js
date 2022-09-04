@@ -5,7 +5,6 @@ function setup() {
 }
 function draw() {
   cam = createCamera();
-  sphere(100, 20, 20);
   background(51);
   fill(255, 0, 150);
   cam.setPosition(200, 200);
@@ -14,4 +13,5 @@ function draw() {
   rotateZ(-30)
   //plane(300, 300);
   angle += 0.07;
+  sphere(100, 20, 20);
 }
