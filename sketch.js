@@ -4,7 +4,7 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight, WEBGL);
 }
 function draw() {
-  cam = createCamera();
+  //cam = createCamera();
   background(51);
   fill(255, 0, 150);
   cam.setPosition(200, 200);
