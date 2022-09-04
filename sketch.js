@@ -1,9 +1,9 @@
 let angle = 0;
 function setup() {
   // put setup code here
+  createCanvas(window.innerWidth, window.innerHeight, WEBGL);
 }
 function draw() {
-  createCanvas(window.innerWidth, window.innerHeight, WEBGL);
   let cam = createCamera();
   background(51);
   stroke("white");
