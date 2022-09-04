@@ -1,9 +1,19 @@
 let angle = 0;
+let xCan = window.innerWidth;
+let yCan = window.innerHeight;
 function setup() {
   // put setup code here
-  createCanvas(window.innerWidth, window.innerHeight, WEBGL);
+  createCanvas(xCan, yCan, WEBGL);
 }
 function draw() {
+  if (xCan > window.innerWidth || xCan < window.innerWidth){
+    xCan = window.innerWidth;
+    createCanvas(xCan, yCan, WEBGL);
+  }
+  if (yCan > window.innerHeight || yCan < window.innerHeight){
+    yCan = window.innerHeight;
+    createCanvas(xCan, yCan, WEBGL);
+  }
   let cam = createCamera();
   background(51);
   stroke("white");
