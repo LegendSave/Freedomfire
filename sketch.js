@@ -7,7 +7,7 @@ function draw() {
   // put drawing code here
   background(51);
   fill(255, 0, 150);
-  rectMode(CENTER);
+  position(200, 200);
   rotateY(-70);
   rotateX(angle);
   rotateZ(-30)
