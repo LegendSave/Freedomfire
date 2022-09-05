@@ -17,8 +17,8 @@ function draw() {
   }
   let cam = createCamera();
   background(51);
-  stroke("white");
-  noFill();
+  noStroke();
+  fill("skyblue");
   cam.setPosition(-250, -200, charz);
   cam.lookAt(300, 250, charz);
   plane(300, 300);
