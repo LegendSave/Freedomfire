@@ -1,7 +1,7 @@
 let angle = 0;
 let xCan = window.innerWidth;
 let yCan = window.innerHeight;
-let z = 300;
+let charz = 300;
 function setup() {
   // put setup code here
   createCanvas(xCan, yCan, WEBGL);
@@ -19,11 +19,11 @@ function draw() {
   background(51);
   stroke("white");
   noFill();
-  cam.setPosition(-250, -200, z);
-  cam.lookAt(300, 250, z);
+  cam.setPosition(-250, -200, charz);
+  cam.lookAt(300, 250, charz);
   plane(300, 300);
   angle += 0.007;
-  translate(300, 250, z);
+  translate(300, 250, charz);
   sphere(100, 20, 20);
   if(keyIsDown(83)){
     z -= 8;
