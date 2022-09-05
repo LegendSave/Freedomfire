@@ -26,9 +26,9 @@ function draw() {
   translate(300, 250, charz);
   sphere(100, 20, 20);
   if(keyIsDown(83)){
-    z -= 8;
+    charz -= 8;
   }
   if(keyIsDown(87)){
-    z += 8;
+    charz += 8;
   }
 }
