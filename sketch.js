@@ -25,10 +25,10 @@ function draw() {
   angle += 0.007;
   translate(300, 250, charz);
   sphere(100, 20, 20);
-  if(keyIsDown(83)){
+  if(keyIsDown(65)){
     charz -= 8;
   }
-  if(keyIsDown(87)){
+  if(keyIsDown(68)){
     charz += 8;
   }
 }
