@@ -25,5 +25,6 @@ function draw() {
   rotateZ(-30)
   plane(300, 300);
   angle += 0.007;
+  translate(300, 250, 300);
   sphere(100, 20, 20);
 }
