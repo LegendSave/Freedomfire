@@ -23,6 +23,8 @@ function draw() {
   cam.lookAt(300, 250, charz);
   plane(300, 300);
   angle += 0.007;
+  ambientLight(50);
+  spotLight(250, 200, 255, 300, 250, charz, 1, 1, 1);
   translate(300, 250, charz);
   sphere(100, 20, 20);
   if(keyIsDown(65)){
@@ -31,5 +33,4 @@ function draw() {
   if(keyIsDown(68)){
     charz += 8;
   }
-  ambientLight(45);
 }
