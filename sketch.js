@@ -31,4 +31,5 @@ function draw() {
   if(keyIsDown(68)){
     charz += 8;
   }
+  ambientLight(45);
 }
