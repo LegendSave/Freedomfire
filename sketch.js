@@ -25,9 +25,7 @@ function draw() {
   angle += 0.007;
   translate(300, 250, z);
   sphere(100, 20, 20);
-}
-function keyPressed(){
-  if(keyCode === 83){
-    z += 8;
+  if(keyIsDown(83)){
+    z -= 8;
   }
 }
