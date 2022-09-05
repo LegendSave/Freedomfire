@@ -28,4 +28,7 @@ function draw() {
   if(keyIsDown(83)){
     z -= 8;
   }
+  if(keyIsDown(87)){
+    z += 8;
+  }
 }
