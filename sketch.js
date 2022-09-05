@@ -20,7 +20,7 @@ function draw() {
   stroke("white");
   noFill();
   cam.setPosition(-250, -200,-250);
-  cam.lookAt(300, 250, 300);
+  cam.lookAt(300, 250, z);
   plane(300, 300);
   angle += 0.007;
   translate(300, 250, z);
