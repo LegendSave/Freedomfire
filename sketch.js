@@ -20,9 +20,6 @@ function draw() {
   noFill();
   cam.setPosition(-250, 250, -250);
   cam.lookAt(300, 250, 300);
-  rotateY(-70);
-  rotateX(angle);
-  rotateZ(-30)
   plane(300, 300);
   angle += 0.007;
   translate(300, 250, 300);
