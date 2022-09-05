@@ -19,7 +19,7 @@ function draw() {
   stroke("white");
   noFill();
   cam.setPosition(-250, 250, -250);
-  cam.lookAt(50, 50, 50);
+  cam.lookAt(300, 250, 300);
   rotateY(-70);
   rotateX(angle);
   rotateZ(-30)
