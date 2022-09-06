@@ -38,5 +38,6 @@ function draw() {
   }
   if(keydown(83)){
     charx += 8;
+    console.log("work mf");
   }
 }
