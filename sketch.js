@@ -8,6 +8,18 @@ function setup() {
   createCanvas(xCan, yCan, WEBGL);
 }
 function draw() {
+  if(keydown(87)){
+    charx -= 8;
+  }
+  if(keydown(83)){
+    charx += 8;
+  }
+  if(keyIsDown(65)){
+    charz -= 8;
+  }
+  if(keyIsDown(68)){
+    charz += 8;
+  }
   if (xCan > window.innerWidth || xCan < window.innerWidth){
     xCan = window.innerWidth;
     createCanvas(xCan, yCan, WEBGL);
@@ -26,16 +38,4 @@ function draw() {
   plane(300, 300);
   translate(charx, 250, charz);
   sphere(100, 20, 20);
-  if(keyIsDown(65)){
-    charz -= 8;
-  }
-  if(keyIsDown(68)){
-    charz += 8;
-  }
-  if(keydown(87)){
-    charx -= 8;
-  }
-  if(keydown(83)){
-    charx += 8;
-  }
 }
