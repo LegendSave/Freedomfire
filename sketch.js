@@ -24,8 +24,7 @@ function draw() {
   cam.lookAt(300, 250, charz);
   angle += 0.007;
   plane(300, 300);
-  translate(300, 250, charz);
-  translate(charx, 250)
+  translate(charx, 250, charz);
   sphere(100, 20, 20);
   if(keyIsDown(65)){
     charz -= 8;
@@ -38,6 +37,5 @@ function draw() {
   }
   if(keydown(83)){
     charx += 8;
-    console.log("work mf");
   }
 }
