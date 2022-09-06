@@ -23,6 +23,7 @@ function draw() {
   cam.setPosition(-250, -200, charz);
   cam.lookAt(300, 250, charz);
   angle += 0.007;
+  plane(300, 300);
   translate(300, 250, charz);
   translate(charx, 250)
   sphere(100, 20, 20);
