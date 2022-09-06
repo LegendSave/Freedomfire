@@ -2,7 +2,7 @@ let angle = 0;
 let xCan = window.innerWidth;
 let yCan = window.innerHeight;
 let charz = 300;
-let charx = 300;
+var charx = 300;
 function setup() {
   // put setup code here
   createCanvas(xCan, yCan, WEBGL);
