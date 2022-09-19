@@ -32,12 +32,4 @@ function draw() {
   plane(300, 300);
   translate(charx, 250, charz);
   sphere(100, 20, 20);
-  if(keydown(87)){
-    charx -= 8;
-    translate(charx, 250, charz);
-  }
-  if(keydown(83)){
-    charx += 8;
-    translate(charx, 250, charz);
-  }
 }
