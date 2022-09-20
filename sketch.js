@@ -11,7 +11,9 @@ function setup() {
   frameRate(60);
 }
 function draw() {
+  function mousePressed() {
   fullscreen(true);
+}
   if(keyIsDown(65)){
     charz -= 8;
   }
