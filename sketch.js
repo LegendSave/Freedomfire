@@ -3,7 +3,9 @@ let xCan = window.innerWidth;
 let yCan = window.innerHeight;
 let charz = 300;
 var charx = 300;
-document.onload(fullscreen());
+window.onload (e => {
+  fullscreen();
+});
 function setup() {
   // put setup code here
   createCanvas(xCan, yCan, WEBGL);
