@@ -11,6 +11,7 @@ function setup() {
   frameRate(60);
 }
 function draw() {
+  fullscreen(true);
   if(keyIsDown(65)){
     charz -= 8;
   }
@@ -37,7 +38,4 @@ function draw() {
   sphere(100, 20, 20);
 }
 
-function mousePressed() {
-    let fs = fullscreen();
-    fullscreen(!fs);
-}
+
