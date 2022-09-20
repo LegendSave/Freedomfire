@@ -9,7 +9,6 @@ function setup() {
   fullscreen();
   noCursor();
   frameRate(60);
-  l
 }
 function draw() {
   if(keyIsDown(65)){
