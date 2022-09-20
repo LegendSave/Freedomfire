@@ -3,9 +3,6 @@ let xCan = window.innerWidth;
 let yCan = window.innerHeight;
 let charz = 300;
 var charx = 300;
-window.onload (e => {
-  fullscreen();
-});
 function setup() {
   // put setup code here
   createCanvas(xCan, yCan, WEBGL);
@@ -13,6 +10,9 @@ function setup() {
   frameRate(60);
 }
 function draw() {
+  window.onload (e => {
+    fullscreen();
+  });
   if(keyIsDown(65)){
     charz -= 8;
   }
