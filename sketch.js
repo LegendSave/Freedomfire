@@ -9,11 +9,9 @@ function setup() {
   createCanvas(xCan, yCan, WEBGL);
   noCursor();
   frameRate(60);
-}
-function draw() {
-  function mousePressed() {
   fullscreen(true);
 }
+function draw() {
   if(keyIsDown(65)){
     charz -= 8;
   }
