@@ -6,6 +6,7 @@ var charx = 300;
 function setup() {
   // put setup code here
   createCanvas(xCan, yCan, WEBGL);
+  noCursor();
 }
 function draw() {
   if(keyIsDown(65)){
