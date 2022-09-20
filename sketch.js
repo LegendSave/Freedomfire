@@ -6,7 +6,9 @@ var charx = 300;
 function setup() {
   // put setup code here
   createCanvas(xCan, yCan, WEBGL);
+  fullscreen();
   noCursor();
+  frameRate(60);
 }
 function draw() {
   if(keyIsDown(65)){
@@ -33,6 +35,4 @@ function draw() {
   plane(300, 300);
   translate(charx, 250, charz);
   sphere(100, 20, 20);
-  mouseX = mouseX + 200;
-  mouseY = mouseY + 200;
 }
