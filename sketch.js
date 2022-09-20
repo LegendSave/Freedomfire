@@ -33,4 +33,6 @@ function draw() {
   plane(300, 300);
   translate(charx, 250, charz);
   sphere(100, 20, 20);
+  mouseX = mouseX + 200;
+  mouseY = mouseY + 200;
 }
