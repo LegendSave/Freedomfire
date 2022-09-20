@@ -9,7 +9,7 @@ function setup() {
   createCanvas(xCan, yCan, WEBGL);
   noCursor();
   frameRate(60);
-  fullscreen(true);
+  fullscreen(true); 
 }
 function draw() {
   if(keyIsDown(65)){
@@ -28,8 +28,8 @@ function draw() {
   }
   let cam = createCamera();
   background(51);
-  noStroke();
-  fill("skyblue");
+  noFill();
+  stroke("white");
   cam.setPosition(-250, -200, -300);
   cam.lookAt(mouseY, mouseX, 200);
   angle += 0.007;
