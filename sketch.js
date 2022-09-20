@@ -11,10 +11,6 @@ function setup() {
   frameRate(60);
 }
 function draw() {
-  if (fscreen == 0){
-    fullscreen();
-    fscreen = 1;
-  }
   if(keyIsDown(65)){
     charz -= 8;
   }
@@ -39,4 +35,8 @@ function draw() {
   plane(300, 300);
   translate(charx, 250, charz);
   sphere(100, 20, 20);
+}
+
+function mousePressed(){
+  fullscreen();
 }
